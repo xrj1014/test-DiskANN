@@ -58,8 +58,8 @@ Key parameters:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/xrj1014/test-DiskANN.git
+cd test-DiskANN
 ```
 
 ### 2. Set Up DiskANN
@@ -92,6 +92,7 @@ bash test_gist_loop.sh
 ### 5. Visualize Results
 Run `graph_build.py` to generate diagrams (modify the script if you want to use a different dataset):
 ```bash
+tar -xjvf vec_sift1m.npy.tar.bz2
 python graph_build.py
 ```
 
