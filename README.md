@@ -2,6 +2,8 @@
 
 This repository contains the code for our paper, which builds upon the existing [DiskANN](https://github.com/microsoft/DiskANN) library from Microsoft. The code is designed to perform approximate nearest neighbor (ANN) search on large-scale datasets, with experiments conducted on three datasets: SIFT1M, GIST1M, and Deep1M.
 
+PDF version of author response: [Author response to reviewers](Author%20Response%20to%20Reviewers.pdf)
+
 ## Overview
 
 The main code in this repository is adapted from [DiskANN](https://github.com/microsoft/DiskANN), a highly efficient library for ANN search on disk-based indices. We extend its functionality to test performance on the SIFT1M, GIST1M, and Deep1M datasets, with scripts for building indices, generating ground truth, and evaluating search performance.
